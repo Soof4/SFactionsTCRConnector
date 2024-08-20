@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OTAPI.Upcoming" Version="3.1.20" />
+    <PackageReference Include="TSAPI" Version="5.2.0" />
+    <PackageReference Include="TShock" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+  
+    <Reference Include="SFactions">
+      <HintPath>..\Dependencies\SFactions.dll</HintPath>
+    </Reference>
+
+    <Reference Include="TCR.Adapter.TShock">
+      <HintPath>..\Dependencies\TCR.Adapter.TShock.dll</HintPath>
+    </Reference>
+
+    <Reference Include="TCR.Core.TShock">
+      <HintPath>..\Dependencies\TCR.Core.TShock.dll</HintPath>
+    </Reference>
+
+    <Reference Include="TCR.Discord.TShock">
+      <HintPath>..\Dependencies\TCR.Discord.TShock.dll</HintPath>
+    </Reference>
+
+  </ItemGroup>
+
+</Project>
