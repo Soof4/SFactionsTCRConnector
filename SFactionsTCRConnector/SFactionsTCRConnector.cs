@@ -16,7 +16,7 @@ namespace SFactionsTCRConnector
         public override string Name => "SFactionsTCRConnector";
         public override string Author => "Soofa";
         public override string Description => "Connects SFactions with TCR";
-        public override Version Version => new Version(0, 0, 1);
+        public override Version Version => new Version(1, 0, 0);
         public SFactionsTCRConnector(Main game) : base(game) { }
         public TerrariaChatRelayTShock TCR = null;
         public Configuration Config = Configuration.Reload();
